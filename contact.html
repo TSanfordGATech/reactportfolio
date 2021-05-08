@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tori Sanford</title>
+
+    <!-- inputting the reset css sheet first -->
+    <link rel="stylesheet" type="text/css" href="resetstyle.css">
+    <!-- final css for additional styling outside of the bootstrap and reset -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- inputting the bootstrap CSS file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Header of contact page copied from index/main html -->
+    <header id="masterheader">
+        <div class="container">
+            <a href="index.html" id="logo">Tori Sanford</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Begin contact form -->
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact Me</h1>
+
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+        </section>
+    </div>
+
+    <!-- Adding in the contact from index/main portion of page -->
+    <section class="sidebar">
+        <div>
+            <h2>Connect with Me:</h2>
+            <a href="https://github.com/TSanfordGATech" target="_blank"><img src="./assets/git.png" class="social"
+                    alt="GitHub" /></a>
+            <a href="https://www.linkedin.com/in/tori-clark/" target="_blank"><img src="./assets/link.png"
+                    class="social" alt="LinkedIn" /></a>
+            <a href="https://stackoverflow.com/users/14701479/tori-sanford?tab=profile" target="_blank"><img
+                    src="./assets/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+            <a href="https://www.facebook.com/ToriDClark" target="_blank"><img src="./assets/fb.png" class="social"
+                    alt="FaceBook" /></a>
+        </div>
+    
+    </section>
+
+  
+
+</body>
+
+</html>
