@@ -3,12 +3,10 @@
 
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
-  --primary-dark: rgba(255,255,255, 0);
 }
 
 body {
-font-family: "Roboto Condesed" sans-serif;
+font-family: 'Times New Roman', Times, serif !important;
 }
 
 /* Menu styling */
@@ -61,7 +59,6 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family:
 }
 
 /* Updating the header for the fun font affect */
@@ -87,4 +84,24 @@ nav ul li {
   margin: 20px ;
   background-color: lightgray;
   text-decoration: none;
+}
+
+/* About me section */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 450px;
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid color darkblue;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 300px;
+  }
 }
