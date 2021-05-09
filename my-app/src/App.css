@@ -160,18 +160,7 @@ nav ul li {
   display: inline-block;
 }
 
-/*------------ OVERFLOW BOX ------------------*/
-/* .overflow {
-  position: absolute;
-  opacity: 0;
-  background-color: black;
-  top: 0;
-  border: 1px solid;
-  border-color: darkblue;
-  cursor: pointer;
-} */
-
-/*------------ MEDIA ------------------*/
+/* Media */
 @media(max-width: 768px) {
   .portfolio-image-popupbox {
     width: 100%;
@@ -195,3 +184,49 @@ nav ul li {
       width: 30%;
     }
   }
+
+/* contacts */
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid color darkblue;
+}
+
+@media(max-width: 468px) {
+  .profile-img {
+    width: 300px;
+  }
+}
+
+
+/*---------------- MEDIA -----------------------*/
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+

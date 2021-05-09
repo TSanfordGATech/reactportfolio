@@ -3,7 +3,7 @@ import React from "react";
 const languages = () => {
     return (
         <div className="technologies">
-            <div className="py-5">
+            <div id="languages" className="py-5">
             <h1 className="tech-box"> Technologies I am familiar with</h1><br></br>
                 <div className="container">
                     <div className="row">

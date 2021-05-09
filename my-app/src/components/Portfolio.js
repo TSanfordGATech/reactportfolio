@@ -17,7 +17,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio-wrapper">
             <div className="container">
-                <h1 className="text-center py-5">Portfolio</h1>
+                <h1 id="portfolio" className="text-center py-5">Portfolio</h1>
                 <div className="image-box-wrapper row justify-content-center mx-auto">
                     <div className="portfolio-image-box">
                     <a href="https://tsanfordgatech.github.io/WeatherDashboard/" target="_blank">
