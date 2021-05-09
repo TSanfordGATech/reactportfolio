@@ -141,9 +141,16 @@ nav ul li {
 }
 
 .portfolio-image {
-  width: 600px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
   border: 1px solid darkblue;
   padding: 0 0.5rem;
+}
+
+.portpara {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .portfolio-image-box {
@@ -154,51 +161,15 @@ nav ul li {
 }
 
 /*------------ OVERFLOW BOX ------------------*/
-.overflow {
+/* .overflow {
   position: absolute;
   opacity: 0;
   background-color: black;
-  width: 600px;
-  height: 300px;
   top: 0;
   border: 1px solid;
   border-color: darkblue;
   cursor: pointer;
-}
-
-.portfolio-image-box:hover .overflow {
-  opacity: 40%;
-  transition: 0.3s ease-in-out;
-}
-
-.portfolio-icon {
-  position: absolute;
-  opacity: 0;
-  margin-left: -300px;
-  margin-top: 80px;
-  font-size: 50px;
-}
-
-.portfolio-image-box:hover .portfolio-icon {
-  opacity: 70%;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-
-/*------------ OVERFLOW BOX ------------------*/
-.portfolio-image-popupbox {
-  width: 45rem;
-  padding: 0 0.5rem;
-}
-
-.hyper-link {
-  cursor: pointer; 
-  color: var(--primary-orange);
-}
-
-.hyper-link:hover {
-  color: var(--primary-red);
-}
+} */
 
 /*------------ MEDIA ------------------*/
 @media(max-width: 768px) {
