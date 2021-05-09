@@ -11,15 +11,15 @@ font-family: 'Times New Roman', Times, serif !important;
 
 /* Menu styling */
 nav a.nav-link {
-  font-size: .8rem;
-  letter-spacing: 0.0375rem;
+  font-size: 12px;
+  letter-spacing: 20 px;
   cursor: pointer;
-  align-content: center;
 }
 
 nav ul li {
   text-transform: uppercase;
 }
+
 
 .navbar-nav > li > a {
   margin-right: 0.75rem;
@@ -104,4 +104,26 @@ nav ul li {
   .profile-img {
     width: 300px;
   }
+}
+
+/* Style the lists in the tech stack */
+.techlist {
+  font-size: 16px;
+}
+
+/* style the box for tech stack  */
+.technologies {
+  border-top: 2px solid darkblue;
+  border-bottom: 2px solid darkblue;
+  background-color: lightgrey;
+}
+
+.tech-box {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 72px;
+}
+
+.tech-list {
+  font-size: 18px;
 }
